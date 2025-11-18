@@ -156,7 +156,7 @@ function checkAdverbs(text: string): { adverbs: string[]; count: number } {
   return { adverbs: found, count: found.length };
 }
 
-export default function createServer({ config }) {
+export default function createServer({ config }: { config?: any }) {
   const server = new McpServer({
     name: "Adverb Checker",
     version: "1.0.0",
