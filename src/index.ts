@@ -167,9 +167,9 @@ export default function createServer({ config }: { config?: any }) {
     "check_adverbs",
     {
       title: "Check Adverbs",
-      description: "Detect adverbs in text using a dictionary of 4,490+ adverbs from Open English WordNet. Returns 100% accurate results based on lexicographer-curated data. No external API calls - all processing done locally.",
+      description: "Check any text against the Open English WordNet dictionary",
       inputSchema: {
-        text: z.string().describe("The text to analyze for adverbs"),
+        text: z.string().describe("Any text"),
       },
     },
     async ({ text }) => {
