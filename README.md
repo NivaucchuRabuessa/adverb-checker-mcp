@@ -1,5 +1,7 @@
 # Basic MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@NivaucchuRabuessa/adverb-checker)](https://smithery.ai/server/@NivaucchuRabuessa/adverb-checker)
+
 A minimal Model Context Protocol (MCP) server demonstrating tools, resources, and prompts.
 
 Built with [Smithery SDK](https://smithery.ai/docs)
@@ -58,4 +60,3 @@ Ready to deploy? Push your code to GitHub and deploy to Smithery:
 
 - [Smithery Docs](https://smithery.ai/docs)
 - [MCP Protocol](https://modelcontextprotocol.io)
-
