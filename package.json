@@ -1,25 +1,23 @@
 {
-  "name": "adverb-checker-mcp",
-  "version": "1.0.0",
-  "description": "MCP server for detecting adverbs using Open English WordNet dictionary",
-  "type": "module",
-  "main": "dist/index.js",
-  "module": "./src/index.ts",
-  "scripts": {
-    "build": "tsc",
-    "dev": "smithery dev",
-    "prepare": "npm run build"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
-    "@smithery/sdk": "^0.3.0",
-    "zod": "^3.23.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.0.0",
-    "typescript": "^5.0.0"
-  },
-  "engines": {
-    "node": ">=18"
-  }
+	"name": "adverb-checker-mcp",
+	"version": "1.0.0",
+	"description": "Check any text against the Open English WordNet dictionary",
+	"main": "index.js",
+	"module": "./src/index.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "smithery dev",
+		"build": "smithery build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.20.0",
+		"@smithery/sdk": "^1.7.4",
+		"zod": "^3.25.76"
+	},
+	"devDependencies": {
+		"@smithery/cli": "^1.5.1"
+	}
 }
